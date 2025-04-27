@@ -1,0 +1,688 @@
+.single .wfp-view-public{
+    margin-bottom: 140px;
+}
+.xs-countdown-timer-v2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+.xs-countdown-timer-v2 .xs-timer-container {
+    text-align: center;
+    margin: 0 40px 0 0; }
+.xs-countdown-timer-v2 .xs-timer-container:last-child {
+    margin: 0; }
+.xs-countdown-timer-v2 .timer-count {
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color: #041D57;
+    border-radius: 100%;
+    -webkit-box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.1);
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 1.28571em; }
+.xs-countdown-timer-v2 .timer-text {
+    line-height: 1;
+    margin: 10px 0 0 0;
+    color: #041D57;
+    font-size: 1em;
+    display: block;
+}
+.wfp-view .wfdp-donate-goal-progress .xs_donate_chart{
+    display: inline-block;
+}
+.wfp-view .wfdp-donate-goal-progress .xs_donate_chart .pie-counter {
+    left: 50%;
+    top: 48%;
+    transform: translateX(-50%) translateY(-58%);
+}
+.xs-after-goel,
+.wfp-total-pledge-count .wfp-pledge-title,
+.wfp-backers-title{
+    font-size: 18px !important;
+    line-height: 18px;
+    color: #222222 !important;
+    font-weight: 400 !important;
+    letter-spacing: 0px !important;
+}
+.xs-after-goel{
+    margin-top: -25px;
+    margin-bottom: 43px;
+}
+.wfp-goal-wraper .wfp-pledge-count{
+    font-size: 42px;
+    color: #041d57;
+    font-weight: 700;
+}
+.wfp-total-pledge-count .wfp-pledge-title{
+    margin-top: 15px !important;
+}
+.countdown-container{
+    margin: 35px 0 38px;
+}
+.wfp-view .xs-btn.submit-btn{
+  background-color: #18bfc3;
+}
+.wfp-view .xs-btn.submit-btn:hover{
+  background-color: #041d57;
+}
+.wfp-title-section,
+.wfp-title-section-default
+{
+    background-color: #000;
+    background-size: cover !important;
+    margin-bottom: 100px;
+    position: relative;
+    padding-top: 200px;
+    padding-bottom: 160px;
+}
+.wfp-title-section-default {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/backgrounds/blog-bg.jpg);
+}
+.wfp-post-header{
+    position: relative;
+    z-index: 1;
+}
+.wp-fundrising_overy{
+    position: absolute;
+    background-color: rgba(0, 0, 0, .3);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 0;
+}
+.wfp-title-section .wfp-post-title{
+    font-size: 52px;
+    line-height: 70px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    padding: 0 35px;
+}
+.wfp-single-tabs{
+    width: 100%;
+}
+/*
+* list style wfp-campaign-content--title
+*/
+
+.wfp-view .wfp-list-campaign .campaign-blog .wfp-compaign-contents .wfp-campaign-content--cat__link{
+    border-radius: 3px;
+    padding: 5px 9px;
+    color: #fff;
+    letter-spacing: 0;
+    font-weight: 600;
+    display: inline-block;
+    font-size: 12px;
+}
+.wfp-view .wfp-list-campaign .campaign-blog .wfp-compaign-contents .wfp-campaign-content--cat{
+    margin-bottom: 15px;
+}
+.wfp-campaign-content--title,
+.wfp-campaign-content--title a{
+    font-size: 22px;
+    font-weight: 500;
+    color: #2b3539;
+    margin-bottom: 20px;
+    font-family: "Yantramanav", sans-serif;
+    transition: all .4s;
+}
+.wfp-campaign-content--title:hover a{
+    color: #18bfc3;
+}
+.single-campaign-blog a.wfp-campaign-content--cat__link{
+    background-color: #e23e57;
+}
+.single-campaign-blog:nth-child(6n+2)  a.wfp-campaign-content--cat__link{
+    background-color: #9064bf;
+}
+.single-campaign-blog:nth-child(6n+3)  a.wfp-campaign-content--cat__link{
+    background-color: #379ff4;
+}
+.single-campaign-blog:nth-child(6n+4)  a.wfp-campaign-content--cat__link{
+    background-color: #fe813a;
+}
+.single-campaign-blog:nth-child(6n+5)  a.wfp-campaign-content--cat__link{
+    background-color: #2cc391;
+}
+.single-campaign-blog:nth-child(6n+5)  a.wfp-campaign-content--cat__link{
+    background-color: #2cc391;
+}
+.single-campaign-blog:nth-child(6n+6)  a.wfp-campaign-content--cat__link{
+    background-color: #7fba00;
+}
+.wfp-view .wfp-round-bar .wfp-round-bar-data{
+    background-color: #e23e57;
+}
+.wfp-view .wfp-round-bar .wfp-round-bar-data {
+    border-radius: 0;
+    transform: none;
+    bottom: calc(100% + 9px);
+    font-size: 0.78571em;
+    font-weight: 700;
+    width: auto;
+    height: auto;
+    line-height: unset;
+    padding: 2px 10px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.wfp-view .wfp-round-bar .wfp-round-bar-data:before {
+    position: absolute;
+    content: "";
+    bottom: -18px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    height: 9px;
+    width: 9px;
+    color: #e23e57;
+    border-top: 9px solid currentColor;
+    border-bottom: 9px solid transparent;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+}
+
+.wfp-view .xs-progress {
+    background-color: rgba(50, 74, 255, 0.07);
+}
+.wfp-view .xs-progress-bar {
+    box-shadow: -1.953px 5.673px 14px 0px rgba(226, 62, 87, .44);
+    background-color: #e23e57;
+}
+.single-campaign-blog:nth-child(6n+2) .wfp-round-bar .wfp-round-bar-data:before{
+    color: #9064bf;
+}
+.single-campaign-blog:nth-child(6n+2)  .xs-progress-bar {
+    box-shadow: -1.953px 5.673px 14px 0px rgba(144, 100, 191, .44);;
+    background-color: #9064bf;
+}
+.single-campaign-blog:nth-child(6n+2) .wfp-round-bar-data{
+    background-color: #9064bf;
+}
+.single-campaign-blog:nth-child(6n+2) .xs-progress-bar{
+    background-color: #9064bf;
+}
+.single-campaign-blog:nth-child(6n+3) .wfp-round-bar .wfp-round-bar-data:before{
+    color: #379ff4;
+}
+.single-campaign-blog:nth-child(6n+3) .xs-progress-bar {
+    box-shadow: -1.953px 5.673px 14px 0px rgba(55, 159, 244, .44);
+    background-color: #379ff4;
+}
+.single-campaign-blog:nth-child(6n+3) .wfp-round-bar-data{
+    background-color: #379ff4;
+}
+
+.single-campaign-blog:nth-child(6n+4) .wfp-round-bar .wfp-round-bar-data:before{
+    color: #fe813a;
+}
+.single-campaign-blog:nth-child(6n+4) .xs-progress-bar {
+    box-shadow: -1.953px 5.673px 14px 0px rgba(254, 129, 58, .44);
+    background-color: #fe813a;
+}
+.single-campaign-blog:nth-child(6n+4) .wfp-round-bar-data{
+    background-color: #fe813a;
+}
+
+.single-campaign-blog:nth-child(6n+5) .wfp-round-bar .wfp-round-bar-data:before{
+    color: #2cc391;
+}
+.single-campaign-blog:nth-child(6n+5) .xs-progress-bar {
+    box-shadow: -1.953px 5.673px 14px 0px rgba(44, 195, 145, .44);
+    background-color: #2cc391;
+}
+.single-campaign-blog:nth-child(6n+5) .wfp-round-bar-data{
+    background-color: #2cc391;
+}
+
+.single-campaign-blog:nth-child(6n+6) .wfp-round-bar .wfp-round-bar-data:before{
+    color: #7fba00;
+}
+.single-campaign-blog:nth-child(6n+6) .xs-progress-bar {
+    box-shadow: -1.953px 5.673px 14px 0px rgba(127, 186, 0, .44);
+    background-color: #7fba00;
+}
+.single-campaign-blog:nth-child(6n+6) .wfp-round-bar-data{
+    background-color: #7fba00;
+}
+
+.wfp-view .wfp-list-campaign .campaign-blog .wfp-compaign-contents .wfp-campaign-content .wfp-inner-data span{
+    font-weight: 400;
+    color: #777777;
+    letter-spacing: .26px;
+}
+.wfdp-donate-goal-progress .target-date-goal .wfp-inner-data strong{
+    font-weight: 500;
+    margin: 0 5px;
+    color: #2b3539;
+}
+.wfp-view .wfp-round-bar {
+    margin-top: 50px;
+}
+.wfp-view .wfp-list-campaign .campaign-blog .wfp-compaign-contents .wfp-campaign-content--title__link {
+    letter-spacing: .26px;
+}
+.wfp-view .wfp-tab > li > a {
+    font-size: 16px;
+    color: #041d57;
+}
+.wfp-view .wfp-tab > li.active > a {
+    color: #18bfc3;
+}
+.wfp-view .wfp-tab > li > a::before {
+    background-color: #18bfc3;
+}
+.wfp-tab-wrapper{
+    margin-top: 50px;
+}
+.wfp-pledge-count.goal-count{
+    color: #18bfc3;
+}
+.wfp-backers-count{
+     color: #ed6753;
+    font-size: 42px;
+    font-weight: 600;
+}
+.xs-after-goel.line_bar{
+    margin-top: 0;
+}
+.wfp-view .wfp-list-campaign .campaign-blog .wfp-compaign-contents .wfp-campaign-content .wfp-inner-data{
+    margin-bottom: 8px;
+}
+.xs_donate_chart_shotcode{
+    text-align: center;
+    margin-left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.wfp-view .wfp-list-campaign .campaign-blog .wfp-compaign-contents {
+    padding: 25px;
+}
+.xs-review-count{
+    position: relative;
+    padding-left: 5px;
+}
+.xs-review-count:before{
+    content: "(";
+    position: relative;
+    font-size: 12px;
+    margin-right: 2px;
+}
+.xs-review-count:after{
+    content: ")";
+    position: relative;
+    font-size: 12px;
+    margin-left: 2px;
+}
+ul.xs-event-list{
+    padding: 0;
+}
+/*
+* Donation xs-donation
+*/
+/*.xs-donation .xs-donate-field-wrap-group,*/
+/*.xs-donation .xs-donate-option{*/
+   /*display: inline-block;*/
+/*}*/
+.xs-donation .wfp-view .wfp-donation-form-wraper .xs-donate-field-wrap-group,
+.xs-donation .wfp-view .wfdp-donationForm .wfdp-donation-input-form .wfp-bdage-list{
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    border: 0;
+}
+.xs-donation .wfp-view .wfp-donation-form-wraper .xs-donate-field-wrap-group{
+    border: 0;
+}
+.xs-donation .xs-donate-field-wrap{
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 52px;
+}
+.xs-donation .wfp-view .wfdp-donationForm .wfdp-donation-input-form .xs-donate-field-wrap .xs-money-symbol,
+.xs-donation .wfp-view .wfdp-donationForm .wfdp-donation-input-form .xs-donate-field-wrap .xs-field{
+    border: 0;
+}
+.xs-donation .wfp-view .wfdp-donationForm .wfdp-donation-input-form .xs-donate-field-wrap .xs-field{
+    color: #fff;
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    height: 52px;
+    line-height: 52px;
+}
+.xs-donation .wfp-view .wfdp-donationForm .wfdp-donation-input-form .xs-donate-field-wrap .xs-money-symbol{
+    color: #fff;
+    height: 52px ;
+    line-height: 52px;
+}
+.xs-donation .wfp-view .wfdp-donationForm .wfdp-donation-input-form .xs-donate-field-wrap .xs-money-symbol,
+.xs-donation .wfp-view .wfdp-donationForm .wfdp-donation-input-form .xs-donate-field-wrap .xs-field{
+    font-family: Yantramanav, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.xs-donation  .xs-donate-option li:not(:first-child){
+    height: 52px;
+    line-height: 52px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-left: 0;
+    margin-right: -3px;
+    padding: 0 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+.xs-donation  .wfp-view .wfp-radio-input-style-2>li label{
+    color: #fff;
+}
+.xs-donation .wfp-view .wfp-radio-input-style-2 .xs_radio_filed[type=radio]:checked+label{
+    color: #fff;
+}
+.xs-donation  .xs-donate-option li:nth-child(3),
+.xs-donation  .xs-donate-option li:nth-child(4)
+{
+    margin-right: -4px;
+}
+.xs-donation  .xs-donate-option li:nth-child(2){
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+.xs-donation  .xs-donate-option li:last-child{
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+.xs-donation .wfp-view .wfdp-donationForm .wfp-donate-form-footer{
+    border: 0;
+}
+.xs-donation .wfp-view .wfdp-donationForm .wfdp-donation-input-form .wfp-bdage-list{
+    text-align: center;
+}
+.xs-donation .wfdp-donation-input-form{
+    text-align: center;
+}
+@media only screen and (min-width: 768px) {
+    .wfp-view .wfp-post-image img {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .wfp-title-section .wfp-post-title{
+        font-size: 27px;
+        line-height: 35px;
+    }
+    .wfp-title-section {
+        padding: 100px 0;
+        margin-bottom: 50px;
+    }
+}
+
+.wfp-view .wfp-radio-input-style-2 .xs_radio_filed[type=radio] {
+    border-color: #fff;
+    background-color: #FFF;
+}
+.wfp-view .xs_radio_filed[type=radio] {
+    border-color: transparent;
+    height: 10px;
+    width: 10px;
+}
+.wfp-view .wfp-radio-input-style-2 .xs_radio_filed[type=radio]:checked {
+    border-color: #fff;
+}
+.wfp-view .wfp-radio-input-style-2 .xs_radio_filed[type=radio]:checked::before {
+    background-color: #e23e57;
+}
+.wfp-view .xs_radio_filed[type=radio]:checked::before {
+    width: 4px;
+    height: 4px;
+}
+
+.xs-donation .wfp-view .wfdp-donationForm .wfdp-donation-input-form .xs-donate-field-wrap .xs-field::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #FFF;
+}
+.xs-donation .wfp-view .wfdp-donationForm .wfdp-donation-input-form .xs-donate-field-wrap .xs-field::-moz-placeholder { /* Firefox 19+ */
+    color: #FFF;
+}
+.xs-donation .wfp-view .wfdp-donationForm .wfdp-donation-input-form .xs-donate-field-wrap .xs-field:-ms-input-placeholder { /* IE 10+ */
+    color: #FFF;
+}
+.xs-donation .wfp-view .wfdp-donationForm .wfdp-donation-input-form .xs-donate-field-wrap .xs-field:-moz-placeholder { /* Firefox 18- */
+    color: #FFF;
+}
+.xs-donation-list-style-2 .wfp-compaign-contents{
+    position: relative;
+}
+.xs-donation-list-style-2 .wfdp-progress-bar{
+    position: absolute;
+    width: 100%;
+    top: -50px;
+    left: 0;
+}
+.xs-donation-list-style-2 .wfp-list-campaign{
+    overflow: initial;
+}
+.xs-donation-list-style-2 .wfp-view .wfp-list-campaign .campaign-blog .wfp-compaign-contents .wfp-campaign-content .target-date-goal,
+.xs-donation-list-style-2 .wfp-view .wfp-list-campaign .campaign-blog .wfp-compaign-contents .wfp-campaign-content .wfdp-donate-goal-progress .raised{
+  display: inline-block;
+    float: left;
+}
+.xs-donation-list-style-2 .wfp-view .wfp-list-campaign .campaign-blog .wfp-compaign-contents .wfp-campaign-content .wfdp-donate-goal-progress .raised .raised-amount{
+    height: 50px;
+    line-height: 50;
+    min-width: 100px;
+    margin-left: 30px;
+}
+.xs-donation-list-style-2 .wfp-inner-data > i{
+    display: none;
+}
+.xs-donation-list-style-2 .wfp-view .wfp-round-bar .wfp-round-bar-data{
+    position: absolute;
+    right: -20px;
+    background-color: #4CC899;
+    width: 40px;
+    height: 40px;
+    font-size: 12px;
+    border-radius: 100%;
+    color: #FFFFFF;
+    top: 50%;
+    margin: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-family: "Poppins", Sans-serif;
+}
+.xs-donation-list-style-2 .single-campaign-blog .xs-progress-bar{
+    background-color: #4CC899
+}
+.xs-donation-list-style-2 .single-campaign-blog a.wfp-campaign-content--cat__link{
+    background-color: transparent;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+.xs-donation-list-style-2  .wfp-view .wfp-list-campaign .campaign-blog .wfp-compaign-contents .wfp-campaign-content--cat__link{
+    color: #18bfc3;
+    padding-left: 0;
+    font-weight: 600;
+    font-family: "Poppins", Sans-serif;
+}
+.xs-donation-list-style-2 .single-campaign-blog .xs-progress-bar{
+    box-shadow: none;
+}
+.xs-donation-list-style-2 .wfp-view .wfp-list-campaign .campaign-blog .wfp-compaign-contents .wfp-campaign-content--title__link{
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #041D57;
+}
+.xs-donation-list-style-2 .wfp-view .wfp-list-campaign .campaign-blog .wfp-compaign-contents .wfp-campaign-content .wfp-inner-data .donate-percentage,
+.xs-donation-list-style-2 .wfp-view .wfp-list-campaign .campaign-blog .wfp-compaign-contents .wfp-campaign-content .wfp-inner-data span,
+.xs-donation-list-style-2 .wfp-view .wfp-list-campaign .campaign-blog .wfp-compaign-contents .wfp-campaign-content .wfp-inner-data span{
+    font-size: 18px;
+    font-family: "Poppins", Sans-serif;
+    font-weight: 600;
+    color: #041d57;
+}
+.xs-donation-list-style-2 .single-campaign-blog .wfp-round-bar .wfp-round-bar-data:before{
+    width: 0;
+    height: 0;
+    border: 0;
+    display: none;
+}
+.xs-donation-list-style-2 .wfp-inner-data{
+    position: relative;
+}
+.xs-donation-list-style-2 .wfp-inner-data > strong {
+    position: absolute;
+}
+.xs-donation-list-style-2 .wfp-view .wfp-list-campaign .campaign-blog .wfp-compaign-contents .wfp-campaign-content .wfp-inner-data strong{
+    left: 0;
+    top: 100%;
+    margin: 0;
+    font-family: "Poppins", Sans-serif;
+    font-weight: 400;
+    color: #54595f;
+}
+.xs-donation-list-style-2 .wfp-view .wfp-list-campaign .campaign-blog .wfp-compaign-contents .wfp-campign-user{
+    margin-top: 0;
+    padding-top: 25px;
+    border-top: 1px solid #EEEEEE;
+}
+.xs-donation-list-style-2 .wfp-campaign-content{
+    padding-bottom: 35px;
+}
+.xs-donation-list-style-2 .wfp-view .wfp-list-campaign .campaign-blog{
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.2);
+}
+/*Home style 3*/
+.xs-donation-list-style-2.xs-donation-list-style-3 .single-campaign-blog:nth-child(6n+1) .wfp-round-bar-data,
+.xs-donation-list-style-2.xs-donation-list-style-3 .single-campaign-blog:nth-child(6n+1) .xs-progress-bar{
+    background-color: #fa575d;
+}
+
+.xs-donation-list-style-2.xs-donation-list-style-3 .single-campaign-blog:nth-child(6n+2) .wfp-round-bar-data,
+.xs-donation-list-style-2.xs-donation-list-style-3 .single-campaign-blog:nth-child(6n+2) .xs-progress-bar{
+    background-color: #9064bf;
+}
+
+.xs-donation-list-style-2.xs-donation-list-style-3 .single-campaign-blog:nth-child(6n+3) .wfp-round-bar-data,
+.xs-donation-list-style-2.xs-donation-list-style-3 .single-campaign-blog:nth-child(6n+3) .xs-progress-bar{
+    background-color: #2193ef;
+}
+
+.xs-donation-list-style-2.xs-donation-list-style-3 .single-campaign-blog:nth-child(6n+4) .wfp-round-bar-data,
+.xs-donation-list-style-2.xs-donation-list-style-3 .single-campaign-blog:nth-child(6n+4) .xs-progress-bar{
+    background-color: #fe813a;
+}
+
+.xs-donation-list-style-2.xs-donation-list-style-3 .single-campaign-blog:nth-child(6n+5) .wfp-round-bar-data,
+.xs-donation-list-style-2.xs-donation-list-style-3 .single-campaign-blog:nth-child(6n+5) .xs-progress-bar{
+    background-color: #8ed4cc;
+}
+
+.xs-donation-list-style-2.xs-donation-list-style-3 .single-campaign-blog:nth-child(6n+6) .wfp-round-bar-data,
+.xs-donation-list-style-2.xs-donation-list-style-3 .single-campaign-blog:nth-child(6n+6) .xs-progress-bar{
+    background-color: #f7a900;
+}
+
+/*Home style 4*/
+
+.home-style-4 .wfp-view .wfdp-donationForm .wfdp-donation-input-form .xs-donate-field-wrap .xs-field{
+
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding-left: 50px;
+    border: 1px solid #c8c8c8;
+}
+.home-style-4 .xs-donate-field-wrap{
+    position: relative;
+}
+.home-style-4 .wfp-view .wfdp-donationForm .wfdp-donation-input-form .xs-donate-field-wrap .xs-money-symbol{
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 0;
+    border-right: 1px solid #c8c8c8;
+}
+.home-style-4 .wfp-view .wfdp-donationForm .wfdp-donation-input-form .xs-dropdown_style{
+    background: transparent;
+    border-color:  #c8c8c8;
+}
+.home-style-4 .wfp-view .wfp-donation-form-wraper .xs-dropdown_style_wraper {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom:0;
+}
+.home-style-4 .wfp-view .wfdp-donationForm .wfp-donate-form-footer{
+    border: 0;
+}
+.home-style-4  .wfp-view .xs-modal-body{
+    padding: 0;
+}
+.donate-style-5 .xs-donation .xs-donate-option li:not(:first-child) {
+    background-color: #f2f2f2;
+    color: #2b3539;
+}
+.donate-style-5 .xs-donation .wfp-view .wfp-radio-input-style-2>li label{
+    color: #2b3539;
+}
+.donate-style-5 .xs-donation .wfp-view .wfp-radio-input-style-2 .xs_radio_filed[type=radio]:checked+label{
+    color: #2b3539;
+}
+.donate-style-5 .wfp-view .wfp-radio-input-style-2 .xs_radio_filed[type=radio]{
+background-color: #a2a6a8;
+}
+.donate-style-5  .wfp-view .wfp-radio-input-style-2 .xs_radio_filed[type=radio]:checked{
+    border-color: #fff;
+    background-color: #D14E11;
+}
+.donate-style-5 .xs-donation .wfp-view .wfdp-donationForm .wfdp-donation-input-form .xs-donate-field-wrap .xs-money-symbol,
+.donate-style-5 .xs-donation .wfp-view .wfdp-donationForm .wfdp-donation-input-form .xs-donate-field-wrap .xs-field{
+    color: #2b3539;
+}
+.donate-style-5 .wfp-view .wfdp-donationForm .wfdp-donation-input-form .xs-donate-field-wrap{
+    border-radius: 40px;
+}
+.donate-style-5 .donate-style-5 .xs-donation .wfp-view .wfdp-donationForm .wfdp-donation-input-form .xs-donate-field-wrap .xs-money-symbol{
+    border-right: 1px solid #eaeaea;
+}
+.donate-style-5 .xs-donation .xs-donate-option li:nth-child(2) {
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+    margin-right: -4px;
+    font-weight: 600;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 16px;
+}
+.donate-style-5 .xs-donation .xs-donate-option li:last-child{
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.donate-style-5 .xs-donation .wfp-view .wfdp-donationForm .wfdp-donation-input-form .xs-donate-field-wrap .xs-field{
+    border-left: 1px solid rgba(162, 166, 168, .10) !important;
+}
+@media (min-width: 1366px){
+    .xs-image-fulid-left img {
+        height: 740px !important;
+        width: auto !important;
+    }
+}
